@@ -199,9 +199,7 @@ if [ -z "${attachment:-}" ]; then
   if [ "${sound:-}" ]; then json="${json},\"sound\":\"${sound}\""; fi
   if [ "${html:-}" ]; then json="${json},\"html\":\"${html}\""; fi
   if [ "${monospace:-}" ]; then json="${json},\"monospace\":\"${monospace}\""; fi
-	json="${json}}"
-
-	echo ${json} 2>&1 | tee /home/sdis/pushover.log
+  json="${json}}"
 
   curl -s -o /dev/null -H "Content-Type: application/json" -d "${json}" "${API_URL}" > /dev/null 2>&1
 else
