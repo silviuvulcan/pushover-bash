@@ -14,6 +14,8 @@ usage: pushover.sh <apikey> <userkey> <message> [options]
   -d,  --device NAME         Comma seperated list of devices to receive message
   -U,  --url URL             URL to send with message
        --url-title URLTITLE  Title of the URL
+  -H,  --html                Enable HTML formatting. monospace may not be used if html is used, and vice versa.
+  -M,  --monospace           Enable monospace formatting. monospace may not be used if html is used, and vice versa.
   -p,  --priority PRIORITY   Priority of the message
                                -2 - no notification/alert
                                -1 - quiet notification
