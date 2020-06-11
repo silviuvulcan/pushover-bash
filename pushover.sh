@@ -27,8 +27,8 @@ showHelp()
         echo "  -d,  --device NAME         Comma seperated list of devices to receive message"
         echo "  -U,  --url URL             URL to send with message"
         echo "       --url-title URLTITLE  Title of the URL"
-        echo "  -H,  --html                Enable HTML formatting. monospace may not be used if html is used, and vice versa.
-        echo "  -M,  --monospace           Enable monospace messages. monospace may not be used if html is used, and vice versa.
+        echo "  -H,  --html                Enable HTML formatting. monospace may not be used if html is used, and vice versa."
+        echo "  -M,  --monospace           Enable monospace messages. monospace may not be used if html is used, and vice versa."
         echo "  -p,  --priority PRIORITY   Priority of the message"
         echo "                               -2 - no notification/alert"
         echo "                               -1 - quiet notification"
